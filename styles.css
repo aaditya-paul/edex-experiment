@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+
+section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.logo-txt span {
+  color: #20b486;
+}
+
+.logo-txt {
+  color: #ffc27a;
+  font-family: 'PT Serif', serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+header ul {
+  list-style: none;
+  position: relative;
+  display: flex;
+}
+
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: center;
+  align-self: center;
+  margin: 50px;
+  margin-left: 0px;
+  font-family: 'Public Sans', sans-serif;
+  color: #6d737a;
+}
+
+header div {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+header div #login a {
+  color: #6d737a;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header div #signup a {
+  color: #fff;
+  background-color: #20b486;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+header div #login a {
+  text-decoration: none;
+}
+header div #login svg {
+  position: relative;
+  top: 4px;
+  right: 3px;
+}
+
+header ul li a:active {
+  color: #20b486;
+}
+header ul li a:hover {
+  color: #ffc27a;
+}
+
+#sparkle {
+  width: 100%;
+  margin-left: 125px;
+  margin-top: 115px;
+}
+
+.BODY {
+  margin-left: 185px;
+  margin-top: -50px;
+}
+
+.green-text {
+  color: #20b486;
+}
+
+.small-font {
+  font-size: 24px;
+}
+
+.large-font {
+  font-size: 50px;
+}
+
+.undelined-font::after {
+  background-image: url(assets/Vector\ 1.svg);
+  width: 100%;
+}
+
+.dark-green-font {
+  color: #06241b;
+}
+
+.public-sans {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.img {
+  position: relative;
+  width: 270px;
+  height: 350px;
+  top: 90px;
+  /* scale: 0.8;   */
+}
+
+.test {
+  background-color: red;
+}
+
+.test-2 {
+  background-color: green;
+}
+
+.imgDiv {
+  padding: 0;
+}
+
+.gray-text {
+  color: #6d737a;
+}
+
+.search-section {
+  margin-left: 185px;
+}
+
+.search-section .search-bar-text {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.search-box {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  border-width: 2px;
+  width: 30%;
+}
+
+.popular-course-div {
+  margin-left: 185px;
+  margin-top: 150px;
+  display: flex;
+}
