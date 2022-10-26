@@ -199,6 +199,7 @@ header ul li a:hover {
 
 .honey-dew-bg {
   background-color: #e9f8f3;
+  /* background-color: #06241b; */
 }
 
 .swiper-pagination-bullet {
@@ -231,4 +232,58 @@ header ul li a:hover {
   position: absolute;
   right: 20px;
   top: 83%;
+}
+
+.popular-categories-div {
+  margin: 150px 0 0 185px;
+}
+
+.popular-categories-grid-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 80%;
+  /* background: red; */
+}
+
+.popular-categories-grid-div a {
+  color: #6d737a;
+  text-decoration: none;
+  font-family: 'Public Sans', sans-serif;
+}
+.popular-categories-grid-div a:hover {
+  color: #20b486;
+  text-decoration: none;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.grid_item {
+  padding: 30px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+.grid_item:hover {
+  padding: 30px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #20b486;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+.grid_item a {
+  color: #6d737a;
+
+  text-decoration: none;
+}
+
+.category_vectors {
+  /* background: #6d737a; */
+  stroke: red;
+  size: 16px;
 }
